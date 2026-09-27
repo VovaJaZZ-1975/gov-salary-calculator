@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Мастер-промпт Фазы 3, п.11 и Фазы 4: приложение полностью офлайн.
+        Разрешение INTERNET намеренно НЕ запрашивается — ни одна функция (расчёт, Room, DataStore,
+        экспорт/импорт JSON/CSV в локальный файл) не требует сети.
+    -->
+
+    <application
+        android:name=".GovSalaryApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GovSalaryApp">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GovSalaryApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

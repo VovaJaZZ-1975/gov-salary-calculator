@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Упрощённый символ "₽" в золотом акцентном цвете темы (см. ui/theme/Theme.kt) -->
+    <path
+        android:fillColor="#D4AF37"
+        android:fillType="evenOdd"
+        android:pathData="M40,30 L58,30 C68,30 75,36 75,45 C75,54 68,60 58,60 L46,60 L46,66 L64,66 L64,74 L46,74 L46,84 L38,84 L38,74 L32,74 L32,66 L38,66 L38,60 L32,60 L32,52 L38,52 L38,30 Z M46,38 L46,52 L57,52 C62,52 66,49 66,45 C66,41 62,38 57,38 Z" />
+</vector>

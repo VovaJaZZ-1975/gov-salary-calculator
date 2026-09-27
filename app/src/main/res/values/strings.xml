@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Калькулятор зарплаты госслужащего</string>
+
+    <!-- Навигация -->
+    <string name="nav_dashboard">Главная</string>
+    <string name="nav_calculator">Расчёт</string>
+    <string name="nav_analytics">Аналитика</string>
+    <string name="nav_calendar">Календарь</string>
+    <string name="nav_history">История</string>
+    <string name="nav_goals">Цели</string>
+    <string name="nav_savings">Накопления</string>
+    <string name="nav_forecast">Прогноз</string>
+    <string name="nav_whatif">What-If</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_more">Ещё</string>
+</resources>
