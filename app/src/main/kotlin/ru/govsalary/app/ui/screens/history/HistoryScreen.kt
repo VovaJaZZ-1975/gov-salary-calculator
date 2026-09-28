@@ -11,6 +11,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
@@ -109,11 +112,11 @@ fun HistoryScreen(
 private fun YearSelector(year: Int, onYearChange: (Int) -> Unit) {
     Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
         androidx.compose.material3.IconButton(onClick = { onYearChange(year - 1) }) {
-            androidx.compose.material3.Icon(androidx.compose.material.icons.Icons.Filled.ArrowBack, contentDescription = "Предыдущий год")
+            androidx.compose.material3.Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Предыдущий год")
         }
         Text("$year", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(horizontal = 8.dp))
         androidx.compose.material3.IconButton(onClick = { onYearChange(year + 1) }) {
-            androidx.compose.material3.Icon(androidx.compose.material.icons.Icons.Filled.ArrowForward, contentDescription = "Следующий год")
+            androidx.compose.material3.Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = "Следующий год")
         }
     }
 }
